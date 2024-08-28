@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.nav > section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav > section > div {
+    background: rgba(128, 128, 128,0.3);
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav > section > div.notification img,
+.nav > section > div.profile img {
+    width: 25px;
+    height: 25px;
+}
