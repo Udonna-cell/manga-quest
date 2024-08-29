@@ -1,0 +1,54 @@
+.reading {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    /* justify-items: start; */
+    gap: 1rem;
+}
+.reading > div > img {
+    height: 100%;
+    /* flex-basis: 10px; */
+}
+.reading > article {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+/* .reading > article > h2 {
+    margin-bottom: 0.2rem;
+} */
+.reading > article > *,
+.reading > article > div > * {
+    padding: 0;
+    margin: 0;
+}
+.reading > article button {
+    background: #f9cb55;
+    color: #121212;
+    padding: 1rem 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+.reading > article button:active {
+    transform: scale(0.92);
+}
+.reading > article div > p > span {
+    color: #f9cb55 !important;
+    font-weight: bold;
+}
+
+.progress {
+    background: gray;
+    border-radius: 5px;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+}
+.progress > div {
+    background: #f9cb55;
+    height: 3px;
+}
