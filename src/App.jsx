@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Nav notice={notice} />
+      
       <Reading />
     </>
   );
