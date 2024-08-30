@@ -8,11 +8,13 @@
 .reading > div {
     height: 100%;
     width: 100%;
+    border-radius: 10px;
 }
 .reading > div > img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
     /* flex-basis: 10px; */
 }
 .reading > article {
