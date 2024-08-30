@@ -1,18 +1,24 @@
 .reading {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 140px 1fr;
     align-items: center;
     /* justify-items: start; */
     gap: 1rem;
 }
+.reading > div {
+    height: 100%;
+    width: 100%;
+}
 .reading > div > img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
     /* flex-basis: 10px; */
 }
 .reading > article {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.3rem;
 }
 /* .reading > article > h2 {
     margin-bottom: 0.2rem;
